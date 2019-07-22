@@ -12,6 +12,12 @@
 **Make sure you Download and Install** this Font in your computer [Muli Font](https://www.fontsquirrel.com/fonts/download/muli)
 
 ## Slack 4 installation
+
+This is a fork containing the slack-dark-mode.sh script adapted to run on
+Linux. It hard codes slack path to `/usr/lib/slack/resources`, but we can
+possibly make this accept an alternative path as a parameter for different
+distros, and also detect if this is running on MacOS and use an alternative path.
+
 Download .sh zip from here [slack-4-sh.zip](http://neckcode.com/slack-dark-mode.sh.zip)
 
 Open termainal and simply drag and drop this .sh file to your terminal after installation restart your slack and enjoy.
